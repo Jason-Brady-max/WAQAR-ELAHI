@@ -1,3 +1,4 @@
 # WAQAR-ELAHI
 this is my first repository.
-author- waqar elahi
+br
+Author - Waqar Elahi
