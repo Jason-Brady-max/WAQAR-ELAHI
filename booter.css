@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: "Sofia", sans-serif;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: "Sofia", sans-serif;
+}
+.nav-item a:hover{
+    color: aqua;
+}
+.navbar-brand img{
+    height: 80px;
+    width: 100%;
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid aqua;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color:rgb(11, 161, 161);
+}
+.bi-bag-check{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+.bi-bag-check:hover{
+    color: aqua;
+}
+.navbar-toggler{
+    font-size: 23px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.main{
+    background: url(image/banner2\ Style\ Your\ Wardrobe.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 3rem;
+    font-family: "Sofia", sans-serif;
+}
+.main p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.main p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: aqua;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover{
+    background-color: rgb(21, 209, 209);
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2:hover{
+    background-color: aqua;
+    border: none;
+    color: white;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(25, 233, 233);
+    display: inline-block;
+}
+.about{
+    background: url(image/banner3\ on\ red\ wall.jpeg)no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.welocome{
+    background: rgb(25, 233, 233);
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.welocome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welocome .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.welocome i{
+    font-size: 45px;
+    color: rgb(25, 233, 233);
+}
+.welocome h2{
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+.product h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.product p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.product p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.star{
+    text-align: end;
+    color: orange;
+}
+.product .card{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.product .card-body{
+    border: 1px dashed rgb(163, 156, 156);
+}
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
+.perl{
+    color: rgb(189, 184, 184);
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(25, 233, 233);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(25, 233, 233);
+    color: rgb(21, 209, 209);
+    background: transparent;
+    border-radius: 50px;
+}
+.discount{
+    background: rgb(25, 233, 233);
+    color: white;
+}
+.dbtn{
+    height: 50px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color: rgb(156, 136, 95);
+}
+.store h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.store p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.store p:nth-child(2){
+    font-size: 18px;
+    color: gray;
+}
+.store i {
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+.store .card:hover{
+    background-color: rgb(25, 233, 233);
+    color: white;
+}
+.store .card:hover .perl{
+    color: white;
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.seller i{
+    color: orange;
+    border: none;
+}
+/* contact start/ */
+.contact{
+    background: url(image/banner1.jpeg) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+.contact input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.contact textarea{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+.cbtn{
+    height: 50px;
+    width: 65%;
+    outline: none;
+    border: none;
+    color: black;
+    background: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+.cbtn:hover{
+    background-color: aqua;
+}
+.footer{
+    background: rgb(167, 148, 148);
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.s1:hover{
+    background-color: aqua;
+    border: none;
+}
+.footer p{
+    color:aqua ;
+}
